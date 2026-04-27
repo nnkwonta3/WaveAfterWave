@@ -1,0 +1,379 @@
+[
+  {
+    "type" : "Tweet",
+    "timestamp" : 100,
+    "sender" : "George P. Burdell",
+	"message" : "Hey, who stole the T?",
+    "retweets" : 50,
+    "favorites" : 120,
+    "priority" : 2
+  },
+  {
+    "type" : "PhoneCall",
+    "timestamp" : 1000,
+    "sender" : "Mother",
+    "priority" : 1
+  },
+  {
+    "type" : "Tweet",
+    "timestamp" : 1100,
+    "sender" : "Angel Cabrera",
+	"message" : "I think George P. stole the T",
+    "retweets" : 21,
+    "favorites" : 5,
+    "priority" : 3
+  },
+  {
+    "type" : "Tweet",
+    "timestamp" : 1200,
+    "sender" : "Angel Cabrera",
+	"message" : "Georgia Tech closed tomorrow due to snow",
+    "retweets" : 1500,
+    "favorites" : 3000,
+    "priority" : 4
+  },
+  {
+    "type" : "Tweet",
+    "timestamp" : 1900,
+    "sender" : "Taylor Swift",
+	"message" : "Check out my latest single, now available on Spotify",
+    "retweets" : 1250981,
+    "favorites" : 3998552,
+    "priority" : 3
+  },
+  {
+    "type" : "VoiceMail",
+    "timestamp" : 1900,
+    "sender" : "Mother",
+    "message" : "Please call me as soon as you get home!",
+	"contentSummary" : 2,
+    "priority" : 1
+  },
+  {
+    "type" : "PhoneCall",
+    "timestamp" : 2000,
+    "sender" : "George P. Burdell",
+    "priority" : 1
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 2300,
+    "sender" : "Eve",
+    "message" : "You studying?",
+    "contentSummary" : 2,
+    "priority" : 3
+  },
+  {
+    "type" : "Tweet",
+    "timestamp" : 3000,
+    "sender" : "George Clooney",
+	"message" : "I'm a Dapper Dan Man",
+    "retweets" : 5010,
+    "favorites" : 10020,
+    "priority" : 2
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 3100,
+    "sender" : "Grace",
+    "message" : "Did you hear from Eve?",
+    "contentSummary" : 2,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 3900,
+    "sender" : "Steve",
+    "message" : "We're getting together at Rocky Mountain Pizza",
+    "contentSummary" : 1,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 4260,
+    "sender" : "Duo Mobile",
+    "message" : "Your Duo login code is 2359",
+    "contentSummary" : 2,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 4300,
+    "sender" : "Duo Mobile",
+    "message" : "Your Duo login code is 5289",
+    "contentSummary" : 2,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 4400,
+    "sender" : "Duo Mobile",
+    "message" : "Your Duo login code is 9532",
+    "contentSummary" : 2,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 4450,
+    "sender" : "Georgia Tech Login Service",
+    "message" : "Your password has been reset due to too many login attempts. Visit passport.gatech.edu to initiate a reset.",
+    "contentSummary" : 3,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 6000,
+    "sender" : "Eve",
+    "message" : "Are you having trouble logging in?",
+    "contentSummary" : 2,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 6020,
+    "sender" : "Samantha",
+    "message" : "Dude, you owe us money for the pizza last week",
+    "contentSummary" : 3,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 6200,
+    "sender" : "Srinivas",
+    "message" : "Do you know when our test is this week?",
+    "contentSummary" : 2,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 6300,
+    "sender" : "Eve",
+    "message" : "Sri just told me there's a test this week, when is it?",
+    "contentSummary" : 2,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 6340,
+    "sender" : "Steve",
+    "message" : "Change of plans: We're meeting at Cyprus Pint and Plate instead",
+    "contentSummary" : 1,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 7500,
+    "sender" : "Georgia Tech Login Service",
+    "message" : "You have successfully reset your password. Please contact us if this is in error.",
+    "contentSummary" : 2,
+    "priority" : 1
+  },
+  {
+    "type" : "Tweet",
+    "timestamp" : 9000,
+    "sender" : "George Burdell",
+	"message" : "The T has now been returned",
+    "retweets" : 300,
+    "favorites" : 500,
+    "priority" : 2
+  },
+  {
+    "type" : "Email",
+    "timestamp" : 9000,
+    "sender" : "Wealty Lawyer <spam@spamhaus.ru>",
+    "message" : "I am pleased to inform you that you have inherited one million US dollars. Please send bank info.",
+    "contentSummary" : 1,
+	"priority" : 4
+  },
+  {
+    "type" : "Tweet",
+    "timestamp" : 9950,
+    "sender" : "Taylor Swift",
+	"message" : "Now posting new cat pics",
+    "retweets" : 120050,
+    "favorites" : 200235,
+    "priority" : 2
+  },
+  {
+    "type" : "Email",
+    "timestamp" : 10000,
+    "sender" : "Mother <yourmom@gmail.com>",
+    "message" : "This is your mother, Saturday at 11pm. I keep trying to reach you, can you return my calls please? Signed, Mother",
+    "contentSummary" : 2,
+	"priority" : 1
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 10200,
+    "sender" : "Samantha",
+    "message" : "You can Venmo me 20 dollars",
+    "contentSummary" : 2,
+    "priority" : 2
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 10250,
+    "sender" : "PNC Bank",
+    "message" : "Your 2 factor login code is 938",
+    "contentSummary" : 2,
+    "priority" : 2
+  },
+  {
+    "type" : "Email",
+    "timestamp" : 12000,
+    "sender" : "Amazon.com <shipping@amazon.com>",
+    "message" : "Your order of 1 Theramin and VHS copy of Forbidden Planet has shipped",
+	"contentSummary" : 2,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 12000,
+    "sender" : "GTENS",
+    "message" : "This is a monthly test of the GTENS alert system.",
+    "contentSummary" : 2,
+    "priority" : 2
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 15000,
+    "sender" : "Eve",
+    "message" : "Do you know if it's possible to turn off GTENS? That thing drives me crazy.",
+    "contentSummary" : 3,
+    "priority" : 2
+  },
+  {
+    "type" : "Email",
+    "timestamp" : 22000,
+    "sender" : "George <burdell@gatech.edu>",
+    "message" : "Wanna study for Computer Audio this evening?",
+	"contentSummary" : 1,
+    "priority" : 2
+  },
+  {
+    "type" : "Tweet",
+    "timestamp" : 23800,
+    "sender" : "Andre Dickens",
+	"message" : "2024 is the Year of Hip Hop in Atlanta",
+    "retweets" : 100,
+    "favorites" : 200,
+    "priority" : 1
+  },
+  {
+    "type" : "Email",
+    "timestamp" : 23800,
+    "sender" : "Fred Nutkin <frednut@gmail.org>",
+    "message" : "Let's grab lunch tomorrow at North Ave.",
+	"contentSummary" : 1,
+    "priority" : 2
+  },
+  {
+    "type" : "Email",
+    "timestamp" : 24000,
+    "sender" : "Fred Nutkin <frednut@gmail.org>",
+    "message" : "Sorry, can't make it after all; realized I have to be at the Career Fair",
+	"contentSummary" : 3,
+    "priority" : 2
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 28000,
+    "sender" : "Martin",
+    "message" : "Looks like the Braves may make the playoffs; wanna see if we can get tickets?",
+    "contentSummary" : 1,
+    "priority" : 1
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 30000,
+    "sender" : "Samantha",
+    "message" : "Still waiting on that Venmo!",
+    "contentSummary" : 3,
+    "priority" : 1
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 32000,
+    "sender" : "Ellen",
+    "message" : "Can I get a lift to Kroger? My car battery is dead.",
+    "contentSummary" : 3,
+    "priority" : 4
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 32200,
+    "sender" : "PNC Bank",
+    "message" : "This message is to inform you that a successful transfer of 32 dollars was made to your account.",
+    "contentSummary" : 2,
+    "priority" : 2
+  },
+  {
+    "type" : "PhoneCall",
+    "timestamp" : 33000,
+    "sender" : "Nigel Throgmorton",
+    "priority" : 3
+  },
+  {
+    "type" : "PhoneCall",
+    "timestamp" : 34000,
+    "sender" : "Unknown sender 404-555-1010",
+    "priority" : 1
+  },
+  {
+    "type" : "Email",
+    "timestamp" : 34600,
+    "sender" : "PNC Bank <customerservice@pncbank.com>",
+    "message" : "Your checking account is overdrawn; please contact us immediately",
+	"contentSummary" : 2,
+    "priority" : 2
+  },
+  {
+    "type" : "Tweet",
+    "timestamp" : 34700,
+    "sender" : "Liam Neeson",
+	"message" : "I have a very special set of skills",
+    "retweets" : 1200,
+    "favorites" : 3510,
+    "priority" : 2
+  },
+  {
+    "type" : "Email",
+    "timestamp" : 34700,
+    "sender" : "Music Midtown <music@midtown.org>",
+    "message" : "Your tickets are ready to download! Click here to download your electronic tickets to the event",
+	"contentSummary" : 2,
+    "priority" : 2
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 35000,
+    "sender" : "Eve",
+    "message" : "That new Nosferatu moving is coming out around Halloween; wanna go see it?",
+    "contentSummary" : 1,
+    "priority" : 2
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 40000,
+    "sender" : "Steve",
+    "message" : "Where RU?",
+    "contentSummary" : 2,
+    "priority" : 2
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 42000,
+    "sender" : "Steve",
+    "message" : "I'm at the student center now",
+    "contentSummary" : 2,
+    "priority" : 3
+  },
+  {
+    "type" : "TextMessage",
+    "timestamp" : 60000,
+    "sender" : "Steve",
+    "message" : "We're planning on bowling",
+    "contentSummary" : 1,
+    "priority" : 2
+  }
+]

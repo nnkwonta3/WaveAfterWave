@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaveafterWave: Context-Aware Sonification System</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>WaveafterWave</h1>
+        <p>A Context-Aware Sonification System for Notifications</p>
+        <p style="font-size: 0.9rem; color: #666; margin-top: 5px;">
+            Inspired by
+            <a href="https://www.youtube.com/watch?v=0a5WyAjL1MM&list=RD0a5WyAjL1MM&start_radio=1"
+               target="_blank"
+               style="color: #3498db; text-decoration: none; font-weight: 500;">
+                "Waves" by Mr. Probz
+            </a> •
+            <span style="font-style: italic;">Press the Play Song button to hear the song this app was inspired by</span>
+        </p>
+    </header>
+
+    <main>
+        <section class="controls">
+            <div class="control-group">
+                <h2>Context Selection</h2>
+                <div class="radio-group">
+                    <label class="radio-option">
+                        <input type="radio" name="context" value="office" checked>
+                        <span class="radio-label">Office</span>
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="context" value="street">
+                        <span class="radio-label">Street</span>
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="context" value="cafe">
+                        <span class="radio-label">Café</span>
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="context" value="home">
+                        <span class="radio-label">Home</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <h2>Event Stream</h2>
+                <div class="radio-group">
+                    <label class="radio-option">
+                        <input type="radio" name="dataset" value="json/ExampleData_1.json" checked>
+                        <span class="radio-label">Dataset 1</span>
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="dataset" value="json/ExampleData_2.json">
+                        <span class="radio-label">Dataset 2</span>
+                    </label>
+                    <label class="radio-option">
+                        <input type="radio" name="dataset" value="json/ExampleData_3.json">
+                        <span class="radio-label">Dataset 3</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <h2>Event Filters</h2>
+                <div class="checkbox-group">
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="twitter" checked>
+                        <span class="checkbox-label">Twitter/X</span>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="email" checked>
+                        <span class="checkbox-label">Email</span>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="text" checked>
+                        <span class="checkbox-label">Text</span>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="call" checked>
+                        <span class="checkbox-label">Phone Call</span>
+                    </label>
+                    <label class="checkbox-option">
+                        <input type="checkbox" name="voicemail" checked>
+                        <span class="checkbox-label">Voicemail</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <div class="button-group">
+                    <button id="startBtn">Start Simulation</button>
+                    <button id="stopBtn" disabled>Stop Simulation</button>
+                    <button id="resetBtn">Reset</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="status">
+            <h2>Current Status</h2>
+            <div id="statusDisplay">
+                <div class="status-item">
+                    <span class="status-label">Context:</span>
+                    <span class="status-value" id="currentContext">Office</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Dataset:</span>
+                    <span class="status-value" id="currentDataset">Dataset 1</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Active Events:</span>
+                    <span class="status-value" id="activeEvents">All</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Simulation:</span>
+                    <span class="status-value" id="simulationStatus">Stopped</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="event-log">
+            <h2>Event Log</h2>
+            <div id="logContainer">
+                <p class="log-entry">No events yet. Start the simulation to see events.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>WaveafterWave - CS 4590 Computer Audio Project</p>
+    </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
